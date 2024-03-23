@@ -113,6 +113,11 @@ small {
   font-size: 80%;
 }
 
+.nav-logo {
+    max-width: 10%;
+    height: auto;
+}
+
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
@@ -138,9 +143,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-img {
-  border-style: none;
-}
+
 
 /* Forms
    ========================================================================== */
