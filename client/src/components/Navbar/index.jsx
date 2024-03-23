@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from "../../assets/store-logo.png";
 import "./navbar.css";
 import cart_logo from "../../assets/cart-logo.png";
