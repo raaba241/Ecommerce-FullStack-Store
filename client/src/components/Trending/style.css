@@ -1,0 +1,45 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* This will distribute space around the items. */
+  padding: 20px; /* Adds padding around the entire container */
+  gap: 20px; /* Space between individual cards */
+}
+
+.card {
+  width: 300px; /* Sets a fixed width for each card */
+  border: 1px solid #ddd; /* Adds a slight border around the card */
+  border-radius: 8px; /* Rounds the corners of the card border */
+  overflow: hidden; /* Ensures nothing overflows the card's rounded borders */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card on hover */
+}
+
+.card img {
+  width: 100%; /* Ensures the image covers the full card width */
+  height: auto; /* Keeps the image aspect ratio intact */
+}
+
+.card-body {
+  padding: 15px; /* Adds padding inside the card, around the content */
+}
+
+.card-body h2 {
+  margin: 0 0 10px; /* Adds spacing below the title */
+  font-size: 1.25rem; /* Sets a specific font size for titles */
+}
+
+.card-body p {
+  margin: 0; /* Removes default paragraph margin */
+  font-size: 1rem; /* Sets a specific font size for the price */
+  color: #333; /* Darker text color for better readability */
+}
+
+h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}

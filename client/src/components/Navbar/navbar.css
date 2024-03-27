@@ -40,6 +40,8 @@
     align-items: center;
     padding: 10px 20px;
     justify-content: space-between;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
 
@@ -48,4 +50,12 @@
     height: 50px;
     margin: 0 auto;
     display: block;
+}
+
+a {
+
+    text-decoration: none;
+    color: red;
+    font-size: 4rem;
+    
 }

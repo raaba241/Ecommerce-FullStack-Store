@@ -1,0 +1,41 @@
+.carousel-item {
+    position: relative;
+    display: flex; /* Use flexbox layout */
+    width: 100%; /* Adjust based on your layout */
+    height: 800px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 8px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  
+  .carousel-img {
+    flex: 1; /* Takes up half of the container */
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the half area without stretching */
+  }
+  
+  /* Container for the text information */
+  .carousel-info {
+    flex: 1; /* Takes up the other half of the container */
+    display: flex;
+    flex-direction: column; /* Stack the title and description vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: start; /* Align the text to the start (left) of the container */
+    padding: 0 20px; /* Add some padding */
+    position: relative;
+    z-index: 2; /* Ensures text stays on top */
+    color: white; /* Adjust based on your preference or background image */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for legibility */
+  }
+  
+  .carousel-title {
+    font-size: 4rem; /* Adjust size as needed */
+    font-weight: bold;
+    margin-bottom: 0.5em; /* Space between title and description */
+  }
+  
+  .carousel-item-description {
+    font-size: 2rem; /* Adjust size as needed */
+  }

@@ -1,34 +1,16 @@
-import CarouselItems from "../FeaturedItems/CarouselItems";
-import { useState } from "react";
-import React from "react";
+import image from '../../assets/zotac-rtx-3080.jpg';
+import './style.css';
 
-const FeaturedItems = () => {
-  const items = [
-    {
-      title: "Nvidia RTX 3080",
-      description: "This is a description of the item",
-      image: import("../../assets/zotac-rtx-3080.jpg"),
-    },
-    {
-      title: "Nvidia RTX 3080",
-      description: "This is a description of the item",
-    //   image: require("../../assets/zotac-rtx-3080.jpg"),
-    },
-    {
-      title: "Nvidia RTX 3080",
-      description: "This is a description of the item",
-    //   image: require("../../assets/zotac-rtx-3080.jpg"),
-    },
-  ];
+const CarouselItems = ({ item }) => {
   return (
-    <div className="carousel">
-      <div className="inner">
-        {items.map((item) => {
-          return <CarouselItems item={item} />;
-        })}
+    <div className="carousel-item">
+      <img className="carousel-img" src={image} alt="" />
+      <div className="carousel-info">
+        <div className="carousel-title">Discover NVDIA's newest hard hitter</div>
+        <div className="carousel-item-description">RTX 5080</div>
       </div>
     </div>
   );
 };
 
-export default FeaturedItems;
+export default CarouselItems;
