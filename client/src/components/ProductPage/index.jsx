@@ -1,6 +1,9 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-
+import card from '../../assets/zotac-rtx-3080.jpg';
+import Navbar from '../Navbar';
+import Menubar from '../Menubar';
+import './style.css';
 function ProductDetails() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
@@ -16,8 +19,17 @@ function ProductDetails() {
 
   return (
     <div>
-      <h2>{product.product_name}</h2>
-      {/* Display other product details */}
+      <Navbar />
+      <Menubar />
+      <div className='product-content'>
+        <img src={card} alt="Product" />
+        <h1>{product.product_name}</h1>
+        <p>{product.price}</p>
+        <p>{product.description}</p>
+        <button>Add to Cart</button> 
+        <button>Buy Now</button>
+      </div>
+
     </div>
   );
 }

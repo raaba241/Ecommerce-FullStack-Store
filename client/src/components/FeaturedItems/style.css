@@ -6,8 +6,6 @@
     overflow: hidden;
     border-radius: 8px; /* Optional: adds rounded corners */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-  Helvetica, Arial, "Lucida Grande", sans-serif;
   }
   
   .carousel-img {
@@ -18,6 +16,7 @@
   
   /* Container for the text information */
   .carousel-info {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex: 1; /* Takes up the other half of the container */
     display: flex;
     flex-direction: column; /* Stack the title and description vertically */
@@ -27,7 +26,7 @@
     position: relative;
     z-index: 2; /* Ensures text stays on top */
     color: white; /* Adjust based on your preference or background image */
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for legibility */
+    background: rgb(0, 0, 0); /* Semi-transparent background for legibility */
   }
   
   .carousel-title {
@@ -37,5 +36,5 @@
   }
   
   .carousel-item-description {
-    font-size: 2rem; /* Adjust size as needed */
+    font-size: 2em; /* Adjust size as needed */
   }

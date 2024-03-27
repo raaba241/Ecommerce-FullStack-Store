@@ -8,7 +8,7 @@ import CategorySectionGPU from './components/CategorySectionGPU';
 import CategorySectionCPU from './components/CategorySectionCPU';
 import CategorySectionPeripherals from './components/CategorySectionPeripherals';
 import CategorySectionRAM from './components/CategorySectionRAM';
-// import CategorySectionCPU from './components/CategorySectionRAM';
+
 
 function App() {
 
@@ -29,7 +29,6 @@ function App() {
         return <CategorySectionCPU />;
       case 'Peripherals':
         return <CategorySectionPeripherals />;
-
       case 'RAM':
           return <CategorySectionRAM/>;
       default:

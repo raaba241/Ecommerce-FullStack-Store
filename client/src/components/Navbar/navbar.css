@@ -16,7 +16,20 @@
     flex-direction: row;
     align-items: center;
 
+
 }
+
+.navbar-right  a{
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: underline;
+
+
+}
+
+
+
 
 .navbar-right button{
     margin-bottom: 13px;

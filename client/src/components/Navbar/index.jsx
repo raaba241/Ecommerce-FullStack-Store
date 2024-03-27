@@ -11,13 +11,10 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <ul>
-          <li>Sign in</li>
-          <li>Register</li>
-          <li>About us</li>
+          <li><a href="/sign-up">Sign up</a></li>
+          <li><a href="/sign-in">Sign in</a></li>
+          <li><a href="/about-us">About Us</a></li>
         </ul>
-        <div>
-          <button>Login</button>
-        </div>
         <div className="cart">
           <img src={cart_logo} alt="" />
         </div>
