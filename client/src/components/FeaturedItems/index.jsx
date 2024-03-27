@@ -1,4 +1,4 @@
-import { CarouselItems } from "../FeaturedItems/CarouselItems";
+import CarouselItems from "../FeaturedItems/CarouselItems";
 import { useState } from "react";
 import React from "react";
 

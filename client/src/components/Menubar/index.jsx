@@ -3,10 +3,10 @@ const Menubar = () => {
   return (
     <div className="menu-bar">
       <ul>
-        <li>GPU</li>
-        <li>CPU</li>
-        <li>RAM</li>
-        <li>Peripherals</li>
+        <li><a href="?categories=gpu">GPU </a></li>
+        <li><a href="?categories=cpu">CPU </a></li>
+        <li><a href="?categories=ram">RAM </a></li>
+        <li><a href="?categories=peripherals">Peripherals </a></li>
       </ul>
     </div>
   );
