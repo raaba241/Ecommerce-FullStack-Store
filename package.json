@@ -21,6 +21,7 @@
     "concurrently": "^8.2.0"
   },
   "dependencies": {
-    "babel": "^6.23.0"
+    "babel": "^6.23.0",
+    "vite": "^5.2.6"
   }
 }
