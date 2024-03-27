@@ -28,6 +28,7 @@ nav ul {
 nav li {
     margin-left: 20px;
     transition: transform 0.2s ease-in-out;
+   
 }
 
 /* Styling for the li elements on hover */

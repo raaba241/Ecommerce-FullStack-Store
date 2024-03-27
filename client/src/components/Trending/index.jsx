@@ -19,7 +19,7 @@ const TrendingItems = () => {
   return (
 
     <div>
-      <h1>OUR TOP SELLING ITEMS</h1>
+      <h1>OUR TOP SELLING ITEMS 🔥</h1>
       <div className="card-container">
 
         {

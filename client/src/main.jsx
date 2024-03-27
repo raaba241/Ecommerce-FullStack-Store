@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from './App.jsx'
 import ProductDetails from './components/ProductPage'
+import LgoinForm from './components/LoginForm'
+import LoginForm from './components/LoginForm'
 
 const router = createBrowserRouter([
   {
@@ -18,7 +20,7 @@ const router = createBrowserRouter([
     element: <ProductDetails />,
   }, {
     path: '/sign-in',
-    element: <ProductDetails />,
+    element: <LoginForm />,
   }, {
     path: '/about-us',
     element: <ProductDetails />,
